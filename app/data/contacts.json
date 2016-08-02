@@ -1,0 +1,38 @@
+{
+"email":"email@gmail.com",
+"business-hours":"from 8a.m to 8p.m",
+"phone":"+38097000000000",
+"location":{"address":"Shyroka 1","city":"Lviv","province":"Ukraine"},
+"imageUrl":"http://epilepsyu.com/epilepsyassociation/files/2016/01/FUN.gif",
+"id":5
+}
+[
+  { 
+    "address": "Адрес",
+    "info": "Львів",
+    "infos": "вул. Центральна 12а"
+    
+  },
+  {
+    "description": "Телефони",
+    "info": "+38 (097) 865-72-18",
+    "infos": "+38 (097) 865-72-18"
+  },
+  {
+    "description": "Контакти",
+    "list": 2,
+    "description": "Шевченківський гай",
+    "url": "../img/tshirt1.png",
+    "latitude": 49.838897,
+    "longitude": 24.054366
+  }
+]
+
+
+
+"imageUrl": "http://epilepsyu.com/epilepsyassociation/files/2016/01/FUN.gif",
+    "description": "Address",
+    "location":{"address":"Shyroka 1","city":"Lviv","province":"Ukraine"},
+    "phone":"+38097000000000",
+    "business-hours":"from 8a.m to 8p.m",
+    "email":"email@gmail.com",
