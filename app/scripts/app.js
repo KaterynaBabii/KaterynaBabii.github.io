@@ -25,6 +25,6 @@ myApp.config(["$routeProvider", function ($routeProvider) {
 },
 
 ]);
-myApp.config(function ($locationProvider) {
-  $locationProvider.html5Mode(true);
-});
+// myApp.config(function ($locationProvider) {
+//   $locationProvider.html5Mode(true);
+// });
