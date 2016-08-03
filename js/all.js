@@ -1,5 +1,5 @@
 
-var myApp = angular.module("myApp", ["ngRoute",]);
+var myApp = angular.module("myApp", ["ngRoute", ]);
 
 myApp.config(["$routeProvider", function ($routeProvider) {
     $routeProvider.
@@ -25,9 +25,23 @@ myApp.config(["$routeProvider", function ($routeProvider) {
 },
 
 ]);
-// myApp.config(function ($locationProvider) {
-//   $locationProvider.html5Mode(true);
+myApp.config(function ($locationProvider) {
+    $locationProvider.html5Mode(true);
+});
+
+// angular.module('app').config(function ($routeProvider) {
+//   var site_prefix = '/firefly';
+//   $routeProvider.
+//   when(site_prefix + '/', {
+//     controller: HomeCtrl,
+//     templateUrl: 'partials/home.html'
+//   }).
+//   when(site_prefix + '/serenity', {
+//     controller: SerenityCtrl,
+//     templateUrl: 'partials/serenity.html'
+//   });
 // });
+
 myApp.controller("contactController", function ($scope) {
     // $scope.location = "Lviv, Interesting str, 8";
     // $scope.location = {"address":"Shyroka 1", "city":"Lviv", "province":"Ukraine",},
