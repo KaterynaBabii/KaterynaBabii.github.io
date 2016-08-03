@@ -22,8 +22,12 @@ myApp.config(["$routeProvider", function ($routeProvider) {
         otherwise({
             redirectTo: "/home",
         });
-},]);
+},
 
+]);
+// myApp.config(function ($locationProvider) {
+//   $locationProvider.html5Mode(true);
+// });
 myApp.controller("contactController", function ($scope) {
     // $scope.location = "Lviv, Interesting str, 8";
     // $scope.location = {"address":"Shyroka 1", "city":"Lviv", "province":"Ukraine",},
